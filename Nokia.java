@@ -92,6 +92,14 @@ import java.util.Scanner;
       System.out.println("1.Missed calls \n2.Received calls \n3.Dialled numbers \n4.Erase resent call lists \n5.Show call duration \n6.Show call costs \n7.Call cost settings \n8.Prepaid credit");
   int register= scanner.nextInt();
         switch(register){
+         case 1:
+              System.out.print("Missed calls.....");
+         case 2:
+              System,out.print("Received calls.....");
+              break;
+         case 3:
+             System.out.print("Dialled numbers....");
+             break;
          case 4:
            System.out.print("Erase resent call lists.....");
             break;
@@ -105,6 +113,8 @@ import java.util.Scanner;
         case 7:
             System.out.println("1.Call cost limit \n2.Show costs in");
             break;
+        case 8;
+            System.out.print("Prepaid credit.....");
         }
      break;
   }
