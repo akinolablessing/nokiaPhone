@@ -1,0 +1,18 @@
+import java.util.Scanner;
+  public class NokiaInMethod{
+    public static void nokia(){ 
+     System.out.print("Nokia menu: \n 1.Phone book \n 2.Messages \n 3.Chat \n 4.Call register"); 
+      
+      Scanner scanner = new Scanner(System.in);
+     switch(phoneBook){
+      case 1:
+          System.out.printn("1.Search \n 2.Service Nos \n 3.Add name \n 4.Erase \n 5.Edit \n 6.Assign tone \n 7.Send b'card \n 8.Options \n 9.Speed dials \n 10.Voice tags");
+       break;
+      }
+   }
+   public static void main(String[] args){
+      nokia();
+     
+    }
+  
+ }

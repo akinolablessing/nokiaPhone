@@ -95,7 +95,7 @@ import java.util.Scanner;
          case 1:
               System.out.print("Missed calls.....");
          case 2:
-              System,out.print("Received calls.....");
+              System.out.print("Received calls.....");
               break;
          case 3:
              System.out.print("Dialled numbers....");
@@ -113,7 +113,7 @@ import java.util.Scanner;
         case 7:
             System.out.println("1.Call cost limit \n2.Show costs in");
             break;
-        case 8;
+        case 8:
             System.out.print("Prepaid credit.....");
         }
      break;
